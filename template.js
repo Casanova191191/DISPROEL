@@ -19,3 +19,8 @@ require('cypress-xpath')
 require('cypress-plugin-tab')
 
 
+
+//"dev": "cypress open", //ejecuta el comando npm run dev
+//"test": "cypress run --headless --browser chrome" //ejecuta el comando npm run test
+
+

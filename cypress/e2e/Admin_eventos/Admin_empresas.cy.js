@@ -23,7 +23,7 @@ describe('Pruebas DISPROEL', () =>{
         cy.wait(2000)
         cy.get(':nth-child(3) > .MuiGrid-root > .MuiButtonBase-root').click()
         cy.wait(2000)
-        cy.get('.jss188 > .MuiGrid-container > :nth-child(2) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type("1234455")
+        cy.get('.jss169 > .MuiGrid-container > :nth-child(2) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type("1234455")
         cy.wait(1000)
         cy.get(':nth-child(3) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type("C123")
         cy.wait(1000)
@@ -46,7 +46,7 @@ describe('Pruebas DISPROEL', () =>{
         cy.wait(1000)
         cy.get('.MuiGrid-grid-sm-12 > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type("Esta empresa es para una prueba")
         cy.wait(1000)
-        cy.get('.jss210 > .MuiButtonBase-root > .MuiButton-label').click()
+        cy.get('.jss197 > .MuiButtonBase-root > .MuiButton-label').click()
         cy.wait(1000)
         
         //**********************SALIR AL PANEL PRINCIPAL***************************
