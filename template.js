@@ -9,13 +9,13 @@ describe('  ', () =>{
 
 })
 
+//******************CAMBIO DE PRUEBA********************
+///////LIBRERIAS///////////////////
 
-///////LIBRERIAS 
-
-//XPATH 
+//XPATH**
 require('cypress-xpath')
 
-//TABULADOR
+//TABULADOR**
 require('cypress-plugin-tab')
 
 
