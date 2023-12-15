@@ -1,0 +1,14 @@
+inputSet:
+  pipeline:
+    identifier: Build_Casanova191191_DISPROEL_1702485417333
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
+  name: prueba3
+  identifier: prueba3
+  orgIdentifier: default
+  projectIdentifier: default_project
