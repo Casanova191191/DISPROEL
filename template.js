@@ -23,4 +23,5 @@ require('cypress-plugin-tab')
 //"dev": "cypress open", //ejecuta el comando npm run dev
 //"test": "cypress run --headless --browser chrome" //ejecuta el comando npm run test
 
-
+// npm run dev (que es el cypress open)
+//npm run test (ejecuta todos los test pero por consola)

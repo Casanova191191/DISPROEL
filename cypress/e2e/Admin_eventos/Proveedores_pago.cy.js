@@ -44,7 +44,7 @@ describe('Pruebas DISPROEL', () =>{
 
          //**********************AGREGAR PROVEEDOR DE PAGO PAGAFACIL***************************
    
-        cy.get(':nth-child(2) > .jss161 > .MuiBox-root > .jss164').click()
+        cy.get(':nth-child(2) > .jss170 > .MuiBox-root > .jss173').click()
         cy.wait(1000)
         cy.get('.MuiBox-root > .MuiGrid-container > :nth-child(3) > .MuiButtonBase-root > .MuiButton-label').click()
         cy.wait(1000)
@@ -60,13 +60,14 @@ describe('Pruebas DISPROEL', () =>{
         cy.wait(1000)
         cy.get(':nth-child(7) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').clear().type("9")
         cy.wait(1000)
-        cy.get('.jss188 > .MuiButtonBase-root').click()
+        cy.get('.jss201 > .MuiButtonBase-root > .MuiButton-label').click()
+        cy.wait(2000)
 
 
         //**********************SALIR AL PANEL PRINCIPAL****************************
 
         cy.get(':nth-child(7) > .MuiDialog-container > .MuiDialog-paper > .MuiAppBar-root > .MuiToolbar-root > .MuiButtonBase-root').click()
-
+        cy.wait(1000)
         cy.get('.MuiDialog-paper > .MuiAppBar-root > .MuiToolbar-root > .MuiButtonBase-root').click()
 
       })

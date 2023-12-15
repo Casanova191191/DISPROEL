@@ -14,8 +14,8 @@ describe('Prueba login DISPROEL', () =>{
         
 
       //******************************CERRAR SESIÓN**************************************
-        cy.get('[title="Cerrar sesión"] > .MuiIconButton-label > .MuiSvgIcon-root').click()
-        cy.wait(1000)
+      //cy.get('[title="Cerrar sesión"]').click()
+      //cy.wait(1000)
     })
 
      //******************************CON DATOS INCORRECTOS**************************************

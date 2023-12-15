@@ -24,7 +24,7 @@ describe('Pruebas DISPROEL', () =>{
         cy.get(':nth-child(3) > .MuiGrid-root > .MuiButtonBase-root > .MuiButton-label').click()
         cy.wait(2000)
 
-        cy.get('.jss174 > .MuiGrid-container > :nth-child(2) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type("KIT PRUEBA")
+        cy.get('.jss181 > .MuiGrid-container > :nth-child(2) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type("KIT PRUEBA")
         cy.wait(2000)
 
         //Se congifuran los switchs
@@ -36,7 +36,7 @@ describe('Pruebas DISPROEL', () =>{
         cy.get(':nth-child(4) > .MuiBox-root > .MuiStack-root > .MuiSwitch-root').click()
         cy.wait(2000)
 
-        cy.get('.jss187 > .MuiButtonBase-root > .MuiButton-label').click()
+        cy.get('.jss184 > .MuiButtonBase-root > .MuiButton-label').click()
         cy.wait(1000)
 
       //**********************SALIR AL PANEL PRINCIPAL***************************

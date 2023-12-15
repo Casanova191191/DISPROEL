@@ -4,7 +4,7 @@ require('cypress-xpath')
 
 describe('Pruebas DISPROEL', () =>{
 
-      it("ADMIN. EMPRESAS OPERADORAS", () =>{
+      it("ADMIN. ROLES", () =>{
          cy.visit('https://disproel.app/')
          cy.get('form > .MuiBox-root > .MuiFormControl-marginNormal > .MuiInputBase-root > .MuiInputBase-input').type("3117501965")
          cy.wait(1000)
@@ -13,7 +13,7 @@ describe('Pruebas DISPROEL', () =>{
          cy.get('form > .MuiBox-root > .MuiButton-contained > .MuiButton-label').click()
          cy.wait(3000)
 
-        //**********************ADMIN. PRODUCTOS***************************
+        //**********************ADMIN. ROLES***************************
 
          cy.get('.MuiIconButton-colorInherit').click()
          cy.wait(1000)
@@ -27,6 +27,8 @@ describe('Pruebas DISPROEL', () =>{
          cy.wait(1000)
          cy.get('#mui-component-select-tipoRol').click()
          cy.get('.MuiList-root > [tabindex="0"]').click()
+         cy.wait(1000)
+         cy.get('.MuiCollapse-entered > :nth-child(1) > :nth-child(1) > .MuiGrid-container > :nth-child(1) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type("50000")
 
         // configurar tipo de rol 
         // COnfigurar los switchs 
@@ -34,7 +36,7 @@ describe('Pruebas DISPROEL', () =>{
         // Configurar valor personalizado AQUI VA UNA CONDICIONAL
         // Configurar demas switchs 
 
-        cy.get('.jss214 > .MuiButtonBase-root > .MuiButton-label').click()
+        cy.get('.jss193 > .MuiButtonBase-root > .MuiButton-label').click()
 
       })
 

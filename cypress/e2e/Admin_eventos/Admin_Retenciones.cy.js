@@ -32,9 +32,9 @@ describe('Pruebas DISPROEL', () =>{
         cy.get(':nth-child(4) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').clear().type("3")
         cy.wait(1000)
         cy.get('#mui-component-select-rol').click()
-        cy.get('[data-value="654d03dc9349b0001443572d"]').click()
+        cy.get('.MuiList-root > .MuiButtonBase-root').click()
         cy.wait(1000)
-        cy.get('.jss203 > .MuiButtonBase-root').click()
+        cy.get('.jss212 > .MuiButtonBase-root > .MuiButton-label').click()
 
         //**********************SALIR AL PANEL PRINCIPAL****************************
 

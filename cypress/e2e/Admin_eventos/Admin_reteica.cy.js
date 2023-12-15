@@ -20,22 +20,22 @@ describe('Pruebas DISPROEL', () =>{
          cy.get('[href="/masters"] > .MuiListItemText-root > .MuiTypography-root').click()
          cy.wait(2000)
          cy.get(':nth-child(3) > .MuiGrid-container > :nth-child(2) > .MuiButtonBase-root > .MuiButton-label').click()
-         cy.wait(1000)
+         cy.wait(2000)
 
          //**********************AGREGAR RETEICA***************************
         
         cy.get(':nth-child(3) > .MuiGrid-root > .MuiButtonBase-root').click()
-        cy.wait(1000) 
-        cy.get(':nth-child(3) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root').type("RISARALDA").type("{enter}")
+        cy.wait(3000) 
+        cy.get(':nth-child(3) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root > .MuiAutocomplete-endAdornment').type("RISARALDA").type("{enter}")
+        cy.wait(5000)
+        cy.get(':nth-child(4) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root').type("PEREIRA").type("{enter}")
         cy.wait(4000)
-        //cy.get(':nth-child(4) > .MuiAutocomplete-root > .MuiFormControl-root > .MuiInputBase-root').type("PEREIRA").type("{enter}")
-        //cy.wait(3000)
-        cy.get('.jss202 > .MuiGrid-container > .MuiGrid-grid-sm-6 > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').clear().type("5")
+        cy.get('.jss211 > .MuiGrid-container > .MuiGrid-grid-sm-6 > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').clear().type("5")
         cy.wait(3000)
         cy.get('#mui-component-select-tipoRol').click()
         cy.get('.MuiList-root > [tabindex="0"]').click()
         cy.wait(1000)
-        cy.get('.jss203 > .MuiButtonBase-root > .MuiButton-label').click()
+        cy.get('.jss212 > .MuiButtonBase-root > .MuiButton-label').click()
 
         //**********************DESCARGAR REPORTE RETEICA***************************
 

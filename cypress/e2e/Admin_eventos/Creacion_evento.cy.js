@@ -26,7 +26,7 @@ describe('Prueba login DISPROEL', () =>{
         // Opción de marcación entrega CAD 
         cy.get('.MuiFormControlLabel-root').click()
         cy.wait(1000)
-        cy.get('.jss197 > .MuiButtonBase-root > .MuiButton-label').click()
+        cy.get('.jss108 > .MuiButtonBase-root').click()
 
     })
 })

@@ -34,7 +34,7 @@ describe('Pruebas DISPROEL', () =>{
         cy.wait(1000)
         cy.get(':nth-child(7) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').clear().type("900")
         cy.wait(1000)
-        cy.get('.jss176 > .MuiButtonBase-root > .MuiButton-label').click()
+        cy.get('.jss189 > .MuiButtonBase-root > .MuiButton-label').click()
 
         //**********************SALIR AL PANEL PRINCIPAL****************************
 
