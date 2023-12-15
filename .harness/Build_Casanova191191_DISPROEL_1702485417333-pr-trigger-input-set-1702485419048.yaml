@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Casanova191191_DISPROEL_1702485417333-pr-trigger-input-set
+  identifier: Build_Casanova191191_DISPROEL_1702485417333prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Casanova191191_DISPROEL_1702485417333
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
